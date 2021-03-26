@@ -1,20 +1,37 @@
 <template>
-  <div id="app">
+  <div id="app" class="h-full" :class="[darkMode ? 'dark bg-dark' : '']">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <DarkToggle/>
+      <!-- <router-link to="/" class="float-right">Home</router-link> -->
     </div>
     <router-view />
   </div>
 </template>
 
+<script>
+import DarkToggle from "./components/DarkToggle.vue"
+import {mapState} from 'vuex'
+export default {
+  components: {
+    DarkToggle
+  },
+
+  computed: {
+    ...mapState(['darkMode'])
+  }
+}
+</script>
+
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Avenir, Helvetica, Arial, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  font-family: 'Vollkorn', serif;
+  font-weight: 700;
+  /* background: #2c3e50; */
 }
 
 #nav {

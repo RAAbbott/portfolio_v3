@@ -103,8 +103,12 @@
 </template>
 
 <script>
+import DarkToggle from './DarkToggle'
 export default {
   name: "HelloWorld",
+  components: {
+    DarkToggle
+  },
   props: {
     msg: String,
   },
