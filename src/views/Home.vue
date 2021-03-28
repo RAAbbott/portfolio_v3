@@ -24,7 +24,8 @@ export default {
   name: "Home",
   data() {
     return {
-      min: false
+      min: false,
+      modal: false,
     }
   },
   components: {

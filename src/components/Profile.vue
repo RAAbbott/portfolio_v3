@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col justify-between items-center h-auto w-96 dark:text-gray-600 text-white rounded-3xl dark:bg-gray-100 bg-dark shadow-2xl px-12 py-6">
-      <img class="w-28 h-28 rounded-full bg-red-500" src="https://media-exp1.licdn.com/dms/image/C5603AQHT4sO7erLC3Q/profile-displayphoto-shrink_800_800/0/1552344956998?e=1622073600&v=beta&t=tqiqJ5H48cs9QYdzPXyBIIRmBeFf0r_RisJpMwEok-M" alt="Profile picture">
+      <img class="w-28 h-28 rounded-full" src="https://media-exp1.licdn.com/dms/image/C5603AQHT4sO7erLC3Q/profile-displayphoto-shrink_800_800/0/1552344956998?e=1622073600&v=beta&t=tqiqJ5H48cs9QYdzPXyBIIRmBeFf0r_RisJpMwEok-M" alt="Profile picture">
       <div class="mt-4">Alex Abbott</div>
       <div class="flex flex-row justify-between items-center my-12">
         <a href="https://github.com/RAAbbott" target="_blank" title="Download My Resume" class="mx-5 cursor-pointer"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>

@@ -1,5 +1,7 @@
 <template>
     <div class="flex flex-row justify-center">
+        <img src="../assets/sun_white.png" alt="" class="h-8 w-8 mr-4 z-100" v-if="darkMode">
+        <img src="../assets/sun_dark.png" alt="" class="h-8 w-8 mr-4 z-100" v-else>
         <!-- Toggle Button -->
         <label 
         for="toogleA"
@@ -25,6 +27,9 @@
                 <!-- Toggle Me! -->
             </div>
         </label>
+
+        <img src="../assets/moon_white.png" alt="" class="h-8 w-8 ml-4 z-100" v-if="darkMode">
+        <img src="../assets/moon_dark.png" alt="" class="h-8 w-8 ml-4 z-100" v-else>
     </div>
 </template>
 
