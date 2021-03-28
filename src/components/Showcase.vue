@@ -32,8 +32,8 @@
                   >
                     {{project.name}}
                   </h3>
-                  <div class="mt-2">
-                    <p class="text-sm text-gray-600">
+                  <div class="mt-2 py-4 px-4">
+                    <p class="text-base text-gray-600">
                       {{project.description}}
                     </p>
                   </div>
