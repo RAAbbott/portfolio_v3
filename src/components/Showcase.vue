@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row h-auto justify-center flex-wrap">
+  <div class="flex flex-row h-auto justify-center flex-wrap w-full">
       <div class="text-4xl w-full dark:text-white text-gray-600 mb-12">Projects</div>
       <div v-for="proj in projects" :key="proj.id" class="mx-24 my-12 2xl:w-1/4 xl:w-1/3 w-full">
           <ProjectCard  @openDetails="showModal(proj)" :project="proj"/>
