@@ -28,8 +28,8 @@
             </div>
         </label>
 
-        <img src="../assets/moon_white.png" alt="" class="h-8 w-8 ml-4 z-100" v-if="darkMode">
-        <img src="../assets/moon_dark.png" alt="" class="h-8 w-8 ml-4 z-100" v-else>
+        <img src="../assets/moon_white.png" alt="" class="h-7 w-7 ml-4 z-100" v-if="darkMode">
+        <img src="../assets/moon_dark.png" alt="" class="h-7 w-7 ml-4 z-100" v-else>
     </div>
 </template>
 
