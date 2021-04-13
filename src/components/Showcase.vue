@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col h-auto justify-center flex-wrap w-full">
-      <div class="text-4xl w-full dark:text-white text-gray-600 mb-12">Projects</div>
-      <div v-for="proj in projects" :key="proj.id" class="mx-24 my-24 w-full flex flex-row">
-          <ProjectCard  @openDetails="showModal(proj)" :project="proj"/>
+  <div class="flex flex-col h-auto justify-center flex-wrap">
+      <div class="text-4xl dark:text-white text-gray-600 mb-12">Projects</div>
+      <div v-for="proj in projects" :key="proj.id" class="mx-24 my-24 w-auto flex flex-row">
+          <ProjectCard  @openDetails="showModal(proj)" :project="proj" class="w-full"/>
           <div class="dark:text-white text-gray-600 font-medium my-4 p-24 mx-auto">
               <div class="text-2xl">{{ proj.name }}</div>
               <div class="text-base">

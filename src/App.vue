@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="h-full" :class="[darkMode ? 'dark bg-dark' : '']">
+  <div id="app" class="h-full w-screen" :class="[darkMode ? 'dark bg-dark' : '']">
     <div id="nav">
       <DarkToggle/>
       <!-- <router-link to="/" class="float-right">Home</router-link> -->

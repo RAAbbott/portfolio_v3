@@ -1,5 +1,5 @@
 <template>
-  <div class="home h-auto">
+  <div class="home h-auto w-screen">
     <!-- Add Header intro component. Be cool to add some clouds or something on dark mode -->
     <Header class="h-screen"/>
     <Showcase class="h-auto z-10 relative"/>
