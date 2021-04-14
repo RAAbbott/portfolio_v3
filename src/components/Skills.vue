@@ -17,7 +17,7 @@
           <!-- <Skill v-for="i in front" :key="i" :icon="i" class="mx-4 my-6" /> -->
           <Skill :icons="front" class="mx-4 my-6" />
       </div>
-      <div class="2xl:w-1/4 2xl:mt-0 mt-20 sm:w-40r w-full mx-auto">
+      <div class="2xl:w-1/4 md:mt-0 mt-20 sm:w-40r w-full mx-auto">
           <div class="w-auto mx-auto text-xl">Back End</div>
           <Skill :icons="back" class="mx-4 my-6" />
           <!-- <Skill v-for="i in back" :key="i" :icon="i" class="mx-4 my-6" /> -->
