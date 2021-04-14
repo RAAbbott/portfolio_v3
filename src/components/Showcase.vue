@@ -1,16 +1,15 @@
 <template>
-  <div class="flex flex-col h-auto justify-center flex-wrap">
+  <div class="flex flex-col h-auto items-between flex-no-wrap mx-auto">
       <div class="text-4xl dark:text-white text-gray-600 mb-12">Projects</div>
-      <div v-for="proj in projects" :key="proj.id" class="mx-24 my-24 w-auto flex flex-row">
-          <ProjectCard  @openDetails="showModal(proj)" :project="proj" class="w-full"/>
-          <div class="dark:text-white text-gray-600 font-medium my-4 p-24 mx-auto">
-              <div class="text-2xl">{{ proj.name }}</div>
-              <div class="text-base">
+      <div v-for="proj in projects" :key="proj.id" class="my-24 mx-12 flex flex-row justify-between items-center">
+          <ProjectCard  @openDetails="showModal(proj)" :project="proj" class="w-1/2 mx-auto"/>
+          <div class="dark:text-white text-gray-600 font-medium my-4 lg:my-0 px-24 py-12 mx-auto w-1/2">
+              <div class="text-2xl mb-4">{{ proj.name }}</div>
+              <div class="md:text-base text-sm font-medium">
                   {{ proj.description }}
               </div>
-              <div class="text-base flex flex-row flex-nowrap">
-                  <div v-for="item in proj.tech" :key=item>
-
+              <div class="md:text-xl text-lg flex flex-row flex-nowrap mt-4">
+                  <div class="text-base mr-4" v-for="item in proj.tech" :key=item>
                   </div>
               </div>
           </div>
@@ -104,5 +103,7 @@ export default {
 </script>
 
 <style>
-
+.custom-w-card {
+    min-width: 50rem;
+}
 </style>
