@@ -4,8 +4,8 @@
     <Header class="h-screen"/>
     <Showcase class="h-auto z-10 relative"/>
     <!-- <MinProfile class="fixed left-4 top-48 ease-out duration-300 transition-opacity" v-if="min"/> -->
-    <Profile class="fixed left-1/2 md:top-1/2 bottom-12 transform -translate-x-1/2 ease-in-out duration-300 transition-opacity" :class="[min ? 'opacity-5 z-0 overflow-hidden' : '']"/>
     <Skills class="h-auto py-24 z-10 relative"/>
+    <Profile class="fixed left-1/2 xl:top-1/2 bottom-12 transform -translate-x-1/2 ease-in-out duration-700 transition-opacity" :class="[min ? 'opacity-5 z-0 overflow-hidden' : '']"/>
     <!-- Add project showcase -->
     <!-- Add proficiencies -->
     <!-- About me section -->

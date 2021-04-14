@@ -57,9 +57,9 @@ export default {
                 {class: 'devicon-angularjs-plain colored', proficient: false, name: 'AngularJS'},
             ],
             tools: [
-                {class: 'devicon-git-plain-wordmark colored', proficient: true, name: 'Git'},
                 {class: 'devicon-mongodb-plain-wordmark colored', proficient: false, name: 'MongoDB'},
-                {class: 'devicon-docker-plain colored', proficient: false, name: 'Docker'},
+                {class: 'devicon-git-plain-wordmark colored', proficient: true, name: 'Git'},
+                {class: 'devicon-xd-plain colored', proficient: true, name: 'Adobe XD'},
                 {class: 'devicon-docker-plain colored', proficient: false, name: 'Docker'},
             ],
         }
