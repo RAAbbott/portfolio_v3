@@ -4,7 +4,7 @@
     <div class="mx-auto mb-12">
         <span><img src="../assets/star.png" alt="" class="h-4 mb-1 inline"> = Proficient</span>
     </div>
-      <div class="flex 2xl:flex-row flex-col justify-around w-full flex-wrap">
+      <div class="flex md:flex-row flex-col justify-around w-full flex-wrap">
       
       <!-- <div class="flex flex-col w-full">
           <div class="w-35r">Front End</div>
