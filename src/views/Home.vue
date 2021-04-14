@@ -5,7 +5,8 @@
     <Showcase class="h-auto z-10 relative"/>
     <!-- <MinProfile class="fixed left-4 top-48 ease-out duration-300 transition-opacity" v-if="min"/> -->
     <Skills class="h-auto py-24 z-10 relative"/>
-    <Profile class="fixed left-1/2 xl:top-1/2 bottom-12 transform -translate-x-1/2 ease-in-out duration-700 transition-opacity" :class="[min ? 'opacity-5 z-0 overflow-hidden' : '']"/>
+    <Contact class="pb-48 relative z-10"/>
+    <Profile class="fixed left-1/2 xl:top-1/2 bottom-12 transform -translate-x-1/2 ease-in-out duration-700 transition-opacity" :class="[min ? 'opacity-0 z-0 overflow-hidden' : '']"/>
     <!-- Add project showcase -->
     <!-- Add proficiencies -->
     <!-- About me section -->
@@ -19,6 +20,7 @@ import Header from '@/components/Header'
 import Showcase from '@/components/Showcase'
 import Skills from '@/components/Skills'
 import Profile from '@/components/Profile'
+import Contact from '@/components/Contact'
 // import MinProfile from '@/components/MinProfile'
 export default {
   name: "Home",
@@ -33,6 +35,7 @@ export default {
     Showcase,
     Skills,
     Profile,
+    Contact
     // MinProfile
   },
 

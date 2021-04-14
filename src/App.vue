@@ -2,7 +2,6 @@
   <div id="app" class="h-full w-screen" :class="[darkMode ? 'dark bg-dark' : '']">
     <div id="nav">
       <DarkToggle/>
-      <!-- <router-link to="/" class="float-right">Home</router-link> -->
     </div>
     <router-view />
   </div>

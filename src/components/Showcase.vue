@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col h-auto items-between flex-no-wrap mx-auto">
-      <div class="text-4xl dark:text-white text-gray-600 md:mb-12 mb-4">Projects</div>
+  <div class="flex flex-col dark:text-white text-gray-600 h-auto items-between flex-no-wrap mx-auto">
+      <div class="text-4xl md:mb-12 mb-4">Projects</div>
       <div v-for="proj in projects" :key="proj.id" class="lg:my-24 my-8 mx-12 flex lg:flex-row flex-col justify-between items-center">
           <ProjectCard  @openDetails="showModal(proj)" :project="proj" class="lg:w-1/2 mx-auto w-full"/>
           <div class="dark:text-white text-gray-600 font-medium lg:my-4 lg:px-24 py-12 px-4 mx-auto lg:w-1/2 w-full flex lg:flex-col flex-col-reverse">
@@ -17,6 +17,14 @@
                 </div>
             </div>
           </div>
+      </div>
+
+      <div class="my-16 flex flex-col">
+          <div class="text-3xl mb-2">Other Professional Projects Include:</div>
+          <a class="text-blue-300 p-1" href="https://www.dentrixascend.com/" target="_blank">Dentrix Ascend (SAAS Dental Practice Management Solution)</a>
+          <a class="text-blue-300 p-1" href="https://tech.churchofjesuschrist.org/project/2-general/7-internet-mission-office-system" target="_blank">IMOS (Cloud-based Internet Mission Office System created by the Church of Jesus Christ of Latter-day Saints)</a>
+          <a class="text-blue-300 p-1" href="https://www.linkedin.com/company/offer-space/about/" target="_blank">Offer Space</a>
+
       </div>
     
       <div class="fixed z-10 inset-0 overflow-y-auto" v-if="modal">
