@@ -51,35 +51,17 @@ export default {
                 {class: 'devicon-cplusplus-plain colored', proficient: false, name: 'C++'},
             ],
             frame: [
-                {class: 'devicon-html5-plain-wordmark colored', proficient: true, name: 'HTML5'},
-                {class: 'devicon-css3-plain-wordmark colored', proficient: true, name: 'CSS3'},
-                {class: 'devicon-javascript-plain colored', proficient: true, name: 'JavaScript'},
-                {class: 'devicon-typescript-plain colored', proficient: false, name: 'Typescript'},
+                {class: 'devicon-vuejs-plain colored', proficient: true, name: 'VueJS / Nuxt'},
+                {class: 'devicon-backbonejs-plain-wordmark colored', proficient: true, name: 'BackboneJS'},
+                {class: 'devicon-express-original-wordmark colored', proficient: true, name: 'Express'},
+                {class: 'devicon-angularjs-plain colored', proficient: false, name: 'AngularJS'},
             ],
             tools: [
-                {class: 'devicon-html5-plain-wordmark colored', proficient: true, name: 'HTML5'},
-                {class: 'devicon-css3-plain-wordmark colored', proficient: true, name: 'CSS3'},
-                {class: 'devicon-javascript-plain colored', proficient: true, name: 'JavaScript'},
-                {class: 'devicon-typescript-plain colored', proficient: false, name: 'Typescript'},
-            ],
-            skills: [
-                {class: 'devicon-html5-plain-wordmark colored', proficient: true, name: 'HTML5'},
-                {class: 'devicon-nodejs-plain-wordmark colored', proficient: true, name: 'NodeJS'},
-                {class: 'devicon-vuejs-plain colored', proficient: true, name: 'VueJS / Nuxt'},
                 {class: 'devicon-git-plain-wordmark colored', proficient: true, name: 'Git'},
-                {class: 'devicon-css3-plain-wordmark colored', proficient: true, name: 'CSS3'},
-                {class: 'devicon-python-plain-wordmark colored', proficient: true, name: 'Python'},
-                {class: 'devicon-backbonejs-plain-wordmark colored', proficient: true, name: 'BackboneJS'},
                 {class: 'devicon-mongodb-plain-wordmark colored', proficient: false, name: 'MongoDB'},
-                {class: 'devicon-javascript-plain colored', proficient: true, name: 'JavaScript'},
-                {class: 'devicon-java-plain-wordmark colored', proficient: false, name: 'Java'},
-                {class: 'devicon-express-original-wordmark colored', proficient: true, name: 'Express'},
                 {class: 'devicon-docker-plain colored', proficient: false, name: 'Docker'},
-                {class: 'devicon-typescript-plain colored', proficient: false, name: 'Typescript'},
-                {class: 'devicon-cplusplus-plain colored', proficient: false, name: 'C++'},
-                {class: 'devicon-angularjs-plain colored', proficient: false, name: 'AngularJS'},
                 {class: 'devicon-docker-plain colored', proficient: false, name: 'Docker'},
-            ]
+            ],
         }
     }
 }

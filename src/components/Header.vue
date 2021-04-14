@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class='text-8xl dark:text-white text-gray-600 mx-auto mt-24'>Hi, I'm Alex</div> 
+        <div class='md:text-8xl text-6xl dark:text-white text-gray-600 mx-auto md:mt-24 mt-12'>Hi, I'm Alex</div> 
         <!-- <div class="text-5xl"><span class="text-red-600 dark:text-red-400 opacity-50 transition-all duration-300 ease-in-out">{{ sub[index] }}</span></div> -->
         <!-- <Profile class="absolute left-4 top-48"/> -->
     </div>

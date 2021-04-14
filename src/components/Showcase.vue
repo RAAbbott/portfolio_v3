@@ -1,9 +1,9 @@
 <template>
   <div class="flex flex-col h-auto items-between flex-no-wrap mx-auto">
-      <div class="text-4xl dark:text-white text-gray-600 mb-12">Projects</div>
-      <div v-for="proj in projects" :key="proj.id" class="my-24 mx-12 flex flex-row justify-between items-center">
-          <ProjectCard  @openDetails="showModal(proj)" :project="proj" class="w-1/2 mx-auto"/>
-          <div class="dark:text-white text-gray-600 font-medium my-4 lg:my-0 px-24 py-12 mx-auto w-1/2">
+      <div class="text-4xl dark:text-white text-gray-600 md:mb-12 mb-4">Projects</div>
+      <div v-for="proj in projects" :key="proj.id" class="lg:my-24 my-8 mx-12 flex lg:flex-row flex-col justify-between items-center">
+          <ProjectCard  @openDetails="showModal(proj)" :project="proj" class="lg:w-1/2 mx-auto w-full"/>
+          <div class="dark:text-white text-gray-600 font-medium lg:my-4 lg:px-24 py-12 px-4 mx-auto lg:w-1/2 w-full">
               <div class="text-2xl mb-4">{{ proj.name }}</div>
               <div class="md:text-base text-sm font-medium">
                   {{ proj.description }}
