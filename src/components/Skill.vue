@@ -1,5 +1,5 @@
 <template>
-  <div class="group h-24 w-35r dark:text-gray-600 text-white rounded-3xl dark:hover:bg-dark dark:bg-gray-100 bg-dark shadow-2xl px-12 py-6 relative transform transition-all ease-in-out duration-200">
+  <div class="group h-24 w-auto dark:text-gray-600 text-white rounded-3xl dark:hover:bg-dark dark:bg-gray-100 hover:bg-gray-100 bg-dark shadow-2xl px-12 py-6 relative transform transition-all ease-in-out duration-200">
     <div class="min-w-full min-h-full group-hover:opacity-10 transform transition-all ease-in-out duration-200">
       <i :class="icon.class" class="icons"></i>
     </div>
