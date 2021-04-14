@@ -7,7 +7,7 @@ export default new Vuex.Store({
   state: {
     darkMode: true,
     projects: [
-      {id: 0, img: 'https://firebasestorage.googleapis.com/v0/b/maven-34c28.appspot.com/o/Screen%20Shot%202021-04-13%20at%202.27.27%20PM.png?alt=media&token=8eb28074-175a-4934-a73a-d720887402ad', name: 'Paktola', private: true, github: '', demo: 'https://www.paktola.com', description: 'Co-founded and built a platform that allows influencers to make money and build connection through 1:1 chats with their followers. Frontend was built with VueJS/Nuxt and TailwindCSS, backend was built with Node using Lambda Functions and interacting with a firestore cloud database.', skills: [
+      {id: 0, img: 'https://firebasestorage.googleapis.com/v0/b/maven-34c28.appspot.com/o/Screen%20Shot%202021-04-13%20at%202.27.27%20PM.png?alt=media&token=8eb28074-175a-4934-a73a-d720887402ad', name: 'Paktola', github: '', demo: 'https://www.paktola.com', description: 'Built a platform that allows influencers to make money and build connection through 1:1 chats with their followers. Frontend was built with VueJS/Nuxt and TailwindCSS, backend was built with Node using Lambda Functions and interacting with a firestore cloud database.', skills: [
         {class: 'devicon-vuejs-plain colored', proficient: true, name: 'VueJS/Nuxt'},
         {img: 'tail.svg', proficient: true, name: 'TailwindCSS'},
         {class: 'devicon-nodejs-plain-wordmark colored', proficient: true, name: 'NodeJS'},
