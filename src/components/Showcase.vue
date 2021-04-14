@@ -3,15 +3,19 @@
       <div class="text-4xl dark:text-white text-gray-600 md:mb-12 mb-4">Projects</div>
       <div v-for="proj in projects" :key="proj.id" class="lg:my-24 my-8 mx-12 flex lg:flex-row flex-col justify-between items-center">
           <ProjectCard  @openDetails="showModal(proj)" :project="proj" class="lg:w-1/2 mx-auto w-full"/>
-          <div class="dark:text-white text-gray-600 font-medium lg:my-4 lg:px-24 py-12 px-4 mx-auto lg:w-1/2 w-full">
-              <div class="text-2xl mb-4">{{ proj.name }}</div>
-              <div class="md:text-base text-sm font-medium">
-                  {{ proj.description }}
-              </div>
-              <div class="md:text-xl text-lg flex flex-row flex-nowrap mt-4">
-                  <div class="text-base mr-4" v-for="item in proj.tech" :key=item>
-                  </div>
-              </div>
+          <div class="dark:text-white text-gray-600 font-medium lg:my-4 lg:px-24 py-12 px-4 mx-auto lg:w-1/2 w-full flex lg:flex-col flex-col-reverse">
+            <div>              
+                <div class="text-2xl mb-4">{{ proj.name }}</div>
+                <div class="md:text-base text-sm font-medium">
+                    {{ proj.description }}
+                </div>
+            </div>
+            <div class="md:text-xl text-lg flex flex-row flex-nowrap lg:mt-6 lg:mb-0 my-6 justify-around">
+                <div class="text-base" v-for="i in proj.skills" :key=i.name>
+                    <i v-if="i.class" :class="i.class" class="mx-1 icons transform hover:opacity-75 transition-all ease-in-out duration-600"></i>
+                    <img v-else :src="require(`../assets/${i.img}`)" alt="" class="h-12">
+                </div>
+            </div>
           </div>
       </div>
     
