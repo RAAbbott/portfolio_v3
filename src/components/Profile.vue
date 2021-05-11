@@ -5,7 +5,7 @@
       <div class="flex flex-row justify-between items-center my-8">
         <a href="https://github.com/RAAbbott" target="_blank" title="View My GitHub" class="mx-5 cursor-pointer transform hover:scale-125 transition-all ease-in-out duration-700"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
         <a href="https://www.linkedin.com/in/raabbott/" target="_blank" title="Visit My LinkedIn" class="mx-5 cursor-pointer transform hover:scale-125 transition-all ease-in-out duration-700"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-        <a href="https://github.com/RAAbbott/portfolio/raw/master/resumeRAA.pdf" download="robertAbbottResume.pdf" class="mx-5 cursor-pointer" title="Download My Resume"><i class="fa fa-file-text fa-3x transform hover:scale-125 transition-all ease-in-out duration-700" aria-hidden="true"></i></a>
+        <a href="https://github.com/RAAbbott/portfolio_V3/raw/master/resumeRAA.pdf" download="robertAbbottResume.pdf" class="mx-5 cursor-pointer" title="Download My Resume"><i class="fa fa-file-text fa-3x transform hover:scale-125 transition-all ease-in-out duration-700" aria-hidden="true"></i></a>
         <a href="mailto:aabbott.business@gmail.com" target="_blank" title="Shoot Me An Email" class="mx-5 cursor-pointer transform hover:scale-125 transition-all ease-in-out duration-700"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
       </div>
       <!-- <div class="px-12 text-sm">
