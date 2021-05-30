@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col justify-between items-center h-96 lg:w-60r w-screen dark:text-gray-600 text-white rounded-3xl dark:bg-gray-100 bg-dark shadow-2xl px-12 py-6">
-      <img class="w-28 h-28 rounded-full" src="https://media-exp1.licdn.com/dms/image/C5603AQHT4sO7erLC3Q/profile-displayphoto-shrink_800_800/0/1552344956998?e=1622073600&v=beta&t=tqiqJ5H48cs9QYdzPXyBIIRmBeFf0r_RisJpMwEok-M" alt="Profile picture">
+      <img class="w-28 h-28 rounded-full" src="../assets/profile.jpeg" alt="Profile picture">
       <div class="mt-4 text-xl">Alex Abbott</div>
       <div class="flex flex-row justify-between items-center my-8">
         <a href="https://github.com/RAAbbott" target="_blank" title="View My GitHub" class="mx-5 cursor-pointer transform hover:scale-125 transition-all ease-in-out duration-700"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
